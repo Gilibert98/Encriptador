@@ -1,0 +1,224 @@
+*{
+	background: #d8d5e9;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+}
+
+.logo{
+	margin: 40px 0 0 60px;
+}
+
+main{
+	display: flex;
+	margin-left: 7%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+section{
+	margin-left: 5%;
+}
+
+.textboxEncrp{
+	width: 550px;
+	height: 350px;
+	font-size: 26px;
+	color: #2a258e;
+	border: none;
+}
+
+.textboxEncrp::placeholder{
+	font-size: 26px;
+	color: #2a258e;
+}
+.textboxEncrp:focus{
+	outline: none;
+}
+
+.detalle{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	padding: 10px;
+	color: #2a258e;
+}
+
+.botones{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10%;
+}
+
+.botonEncr{
+	width: 328px;
+	height: 67px;
+	background: #be8db1;
+	border-radius: 24px;
+	border: #6d638f 2px solid;
+
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.botonEncr:active{
+	background: #d4a6ca;
+	border-color: white;
+}
+
+.botonDesencr{
+	width: 328px;
+	height: 67px;
+	background: #e9bee3;
+	border-radius: 24px;
+	border: #a87598 2px solid;
+	
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #a87598;
+}
+
+.botonDesencr:active{
+	background: #d4a6ca;
+	border-color: white;
+	color: white;
+}
+
+.textboxDesencrp{
+	width: 300px;
+	height: 345px;
+	padding: 15px;
+	font-size: 26px;
+	color: #2a258e;
+	background: #b0abd3;
+	background-image: url("Imagenes/Monito.png");
+	background-position: 15%;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	border: none;
+}
+
+.textboxDesencrp:focus{
+	outline: none;
+}
+
+.textboxDesencrp::moz-selection{
+	background-color: transparent;
+} 
+
+.textboxDesencrp::selection{
+	background-color: transparent;
+}
+
+.botonCopy{
+	width: 268px;
+	height: 67px;
+	margin-top: 15px;
+	margin-left: 30px;
+	background: #be8db1;
+	border-radius: 24px;
+	border: #6d638f 2px solid;
+
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.botonCopy:active{
+	background: #d4a6ca;
+	border-color: white;
+}
+
+footer{
+	font-family: Inter;
+	font-size: 15px;
+	font-style: italic;
+	color: #2a258e;
+	text-align: center;
+}
+
+@media screen and (max-width:768px) {
+	.logo{
+		width: 10%;
+	}
+	main{
+		display: block;
+		padding: 5%;
+	}
+	.textboxEncrp{
+		width: 80%;
+		height: 2.5%;
+	}
+	.botones{
+		margin-top: 10px;
+		margin-bottom: 20px;
+		margin-right: 15%;
+	}
+	.textboxDesencrp{
+		width: 80%;
+		height: 25%;
+		background-position: 45%;
+	}
+	.botonCopy{
+		margin-top: 20px;
+		margin-left: 15%;
+		width: 50%;
+	}
+}
+
+@media screen and (max-width:375px){
+	.logo{
+		margin: 25px 0 0 25px;
+		width: 15%;
+	}
+	main{
+		margin-left: 5%;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.textboxEncrp{
+		width: 90%;
+		height: 150px;
+		font-size: 18px;
+	}
+	.textboxEncrp::placeholder{
+		font-size: 18px;
+	}
+	.detalle{
+		font-size: 12px;
+	}
+	.botones{
+		margin-bottom: 25px;
+		margin-right: 15%;
+	}
+	.botonEncr{
+		height: 40px;
+		border-radius: 14px;
+		font-size: 12px;
+	}
+	.botonDesencr{
+		height: 40px;
+		border-radius: 14px;
+		font-size: 12px;
+	}
+	.textboxDesencrp{
+		width: 80%;
+		height: 150px;
+		background-image: none;
+		font-size: 18px;
+	}
+	.botonCopy{
+		height: 40px;
+		border-radius: 14px;
+		font-size: 12px;
+	}
+	footer{
+		margin-top: 20px;
+	}
+	
+}

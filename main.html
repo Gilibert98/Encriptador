@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es"> 
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Encriptador</title>
+		<link rel ="stylesheet" href="reset.css">
+		<link rel ="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<img src="Imagenes/Logo.png" class="logo">
+		</header>
+
+		<main>
+			<section>
+				<textarea name="Encriptador" cols="30" rows="10" placeholder="Ingrese el texto a encriptar" class="textboxEncrp"></textarea>
+				<div class="detalle">
+					<img src="Imagenes/detail.png">
+					<h6>Ingrese el texto en minúsculas y sin acentos.</h6>
+				</div>
+				<div class="botones">
+					<button onclick="botonEncriptar()" class="botonEncr">Encriptar</button>
+					<button onclick="botonDesencriptar()" class="botonDesencr">Desencriptar</button>
+				</div>
+			</section>
+
+			<section>
+				<textarea name="Desencriptador" cols="30" rows="10" class="textboxDesencrp"></textarea>
+				<div class="copiar">
+					<button onclick="copiar()"class="botonCopy">Copiar resultado</button>
+				</div>
+			</section>
+
+		</main>
+
+	</body>
+
+	<footer> <h6>&#x1f664; Sitio web elaborado por: Belén Gilibert Rodríguez &#x1f666;</h6> </footer>
+
+	<script src="script.js"></script>
+
+</html>
